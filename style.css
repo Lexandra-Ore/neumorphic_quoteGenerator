@@ -19,6 +19,7 @@ body {
 
   font-weight: 700;
   background: -webkit-linear-gradient(left, hsl(0, 0%, 86%), hsl(0, 0%, 92%));
+  background: linear-gradient(to left, hsl(0, 0%, 86%), hsl(0, 0%, 92%));
   color: #575757;
   display: flex;
   justify-content: center;
@@ -79,6 +80,7 @@ body {
     hsl(201, 82%, 44%),
     hsl(295, 62%, 50%)
   );
+  background: linear-gradient(to left, hsl(201, 82%, 44%), hsl(295, 62%, 50%));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -98,6 +100,7 @@ body {
     hsl(201, 82%, 44%),
     hsl(295, 62%, 50%)
   );
+  background: linear-gradient(to left, hsl(201, 82%, 44%), hsl(295, 62%, 50%));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -127,7 +130,7 @@ body {
     hsl(201, 82%, 44%),
     hsl(295, 62%, 50%)
   );
-  background: linear-gradient(left, hsl(201, 82%, 44%), hsl(295, 62%, 50%));
+  background: linear-gradient(to left, hsl(201, 82%, 44%), hsl(295, 62%, 50%));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
