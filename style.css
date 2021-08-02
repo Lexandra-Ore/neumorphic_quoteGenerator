@@ -26,6 +26,7 @@ body {
 }
 
 .quote__container {
+  margin: 0 auto;
   width: auto;
   max-width: 900px;
   padding: 2rem 3rem;
@@ -70,7 +71,7 @@ body {
 }
 
 .quote__text--quote {
-  box-shadow: 1rem 1rem 2rem #d0d0d0, -1rem -1rem 2rem #ebebeb;
+  box-shadow: inset 1rem 1rem 2rem #d0d0d0, inset -1rem -1rem 2rem #ebebeb;
   padding: 2rem;
 
   font-weight: 400;
@@ -87,7 +88,7 @@ body {
 .quote__author {
   text-align: center;
   margin-top: 1.5rem;
-  box-shadow: 1rem 1rem 2rem #d0d0d0, -1rem -1rem 2rem #ebebeb;
+  box-shadow: inset 1rem 1rem 2rem #d0d0d0, inset -1rem -1rem 2rem #ebebeb;
   padding: 2rem;
   font-family: Montserrat, sans-serif;
   font-style: italic;
