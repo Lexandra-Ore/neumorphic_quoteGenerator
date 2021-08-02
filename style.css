@@ -116,7 +116,7 @@ body {
   background-color: #e2e2e2;
   border: none;
   outline: none;
-  box-shadow: 0.3rem 0.3rem 2rem #d0d0d0, -0.3rem -0.3rem 2rem #ebebeb;
+  box-shadow: 0.5rem 2rem 2rem #d0d0d0, -0.5rem -2rem 2rem #ebebeb;
   padding: 2rem 6rem;
   margin: 2rem 2rem;
   cursor: pointer;
