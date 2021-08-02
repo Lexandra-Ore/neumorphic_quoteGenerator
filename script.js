@@ -34,7 +34,10 @@ function newQuote() {
   } else {
     quoteText.classList.remove("long-quote");
   }
+  // Set Quote, Hide Loader
   quoteText.textContent = quote.text;
+  // Stop showingloading after getting random quote from  the quote API
+  hideLoading();
 
   // Change the author of the quote dynamically when there is a new quote or the new quote button is clicked
   // Changing the author to Unknown, if it returns null from quote API
@@ -43,9 +46,6 @@ function newQuote() {
   } else {
     authorText.textContent = quote.author;
   }
-
-  // Stop showingloading after getting random quote from  the quote API
-  hideLoading();
 }
 
 function tweetQuote() {
@@ -57,6 +57,7 @@ function tweetQuote() {
 
 // get Quote from API asynchronously
 async function getQuotes() {
+  showLoading();
   const apiUrl = "https://type.fit/api/quotes";
   try {
     const response = await fetch(apiUrl);
