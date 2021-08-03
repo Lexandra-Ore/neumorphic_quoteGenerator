@@ -131,7 +131,7 @@ body {
     hsl(201, 82%, 44%),
     hsl(295, 62%, 50%)
   );
-   background: linear-gradient(to left, hsl(201, 82%, 44%), hsl(295, 62%, 50%));
+  background: linear-gradient(to left, hsl(201, 82%, 44%), hsl(295, 62%, 50%));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
