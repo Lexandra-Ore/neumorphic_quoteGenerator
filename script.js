@@ -15,8 +15,10 @@ function showLoading() {
 
 // Hide Loader
 function hideLoading() {
-  loader.hidden = true;
-  quoteContainer.hidden = false;
+  if (!loader.hidden) {
+    loader.hidden = true;
+    quoteContainer.hidden = false;
+  }
 }
 
 // Display a random quote from array of quote object gotten from the quote API
@@ -65,6 +67,8 @@ async function getQuotes() {
     newQuote();
   } catch (error) {
     // Catch the Error Here and do something when an error occurs
+
+    console.log("Whoops! no quotes", error);
   }
 }
 
